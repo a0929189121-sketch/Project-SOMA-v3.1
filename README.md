@@ -39,7 +39,8 @@ V4 放棄傳統微型舵機，轉向工業級流體致動方案。
 自由度 (DoF) | 42 個活動關節 | 全模組化  
 
 ## 物理原型示意圖
-![V4 原型圖](V4-prototype.jpg)  
+<img width="64" height="36" alt="image" src="https://github.com/user-attachments/assets/96e917af-da8c-437d-bb92-e3bd80f11325" />
+
 （上傳你的 V4 生成圖片，檔名 V4-prototype.jpg）
 
 ## 免責聲明
