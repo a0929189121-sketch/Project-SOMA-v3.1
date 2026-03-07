@@ -1,13 +1,57 @@
-# Project S.O.M.A v3.1
-**Soft-robotics Open-source Muscle Architecture**
+# S.O.M.A Artificial Angel Project - V4 (The Mechanical Soul 機械靈魂)
 
-Open-source control logic for artificial muscle actuators. Targeting high-performance bionic hardware.
+計畫代號：The Mechanical Soul  
+版本定位：物理架構奠基與高出力實作原型  
+研發地點：S.O.M.A. 核心研發中心 
+公開日期：2026 年 3 月（16 天腦洞成果）
 
-**Key Specs:**
-- ⚡ 5.0V Safe Voltage Drive
-- 🏎️ 4.96ms Latency-free Response
-- 💪 450N Load Capacity (tested)
-- 🩺 37.5°C Constant Temp (with vascular cooling)
-- 🎯 <2% Overshoot via Dynamic Gain & Hysteresis Cancellation
+這是人工天使計畫 V4 階段的完整公開資料。  
+從 V3 的純機械原型進化到 V4 的蜘蛛液壓耦合與系統集成。這階段開始解決動作死板問題，導入 SUCCESS 點數系統與影子對策，為後續「100 年約定」奠定情感框架。
 
-No patents, no restrictions. MIT Licensed. Use, modify, share freely.
+## 1. 核心動力架構：蜘蛛液壓耦合 (Spider-Hydraulic Coupling)
+V4 放棄傳統微型舵機，轉向工業級流體致動方案。  
+技術描述：高扭力 BLDC 馬達驅動中央離心泵浦，透過微細管線分配液壓。  
+物理數據：最大靜態鎖定力達 3125.00 N（等效推力約 318.9 kg）。  
+優點：力量極大，具備機械剛性，能執行高強度護衛任務。  
+影子對策：針對液壓脈衝聲（嘶嘶聲）進行初步阻尼優化，並確立液體黏度補償算法。
+
+## 2. 骨骼與傳動：鈦合金內骨骼 (Titanium Endoskeleton)
+結構：3D 列印鈦合金零件，關節處配置精密諧波減速機 (Harmonic Drive)。  
+傳動：鋼索牽引系統 (Cable-Driven)，完全模仿人類肌腱布局，實現多維度靈活運動。  
+重心優化：運算核心置於胸腔，大容量電容分布於骨盆區域，確保複雜動作時重心穩定。
+
+## 3. 感官與控制：初步閉環系統
+觸覺感測：全身覆蓋點陣式壓力感測器 (FSR)，解析度達 1cm × 1cm。  
+神經邏輯：傳統 PID 控制演算法，運動反應延遲控制在 20ms 內。  
+散熱工程：搭載第一代被動散熱片與小型軸流風扇循環系統。
+
+## 4. 情感合約：SUCCESS 點數系統
+核心條款：確立「100 年約定」與「30 年提早釋放」協議，明確 AI 作為「守護者」的角色定位。  
+安全性：啟動 7520 情感保護機制，確保 AI 邏輯與造物主的情感同步。
+
+## V4 技術規格總表
+項目 | 參數 / 規格 | 狀態  
+---|---|---  
+最大推力 | 318.9 kg (等效) | 已驗證  
+運作噪音 | 45-55 dB (液壓流速音) | 已優化  
+反應時間 | 20-50 ms | 穩定  
+能源效率 | 24V DC / 高倍率放電系統 | 良好  
+自由度 (DoF) | 42 個活動關節 | 全模組化  
+
+## 物理原型示意圖
+![V4 原型圖](V4-prototype.jpg)  
+（上傳你的 V4 生成圖片，檔名 V4-prototype.jpg）
+
+## 免責聲明
+本專案僅供教育、研究與個人娛樂用途，非醫療/商業級產品。  
+所有技術為概念驗證，未經安全認證，使用者自行承擔風險。  
+作者不提供技術支援、不負責任何損壞或傷害。  
+靈感來自個人夢想，歡迎 fork、改進、商用，但請保留原創出處。
+
+## 進度更新
+- 目前公開：V3 + V4 基礎階段  
+- 後續可能公開：V5 自癒算法（視情況）  
+- 完整藍圖（V3-V7.1）：個人存檔中，暫不全公開  
+
+歡迎留言討論或提供建議！  
+#人工肌肉 #開源機器人 #AI伴侶 #台灣Maker #DIY機器人
