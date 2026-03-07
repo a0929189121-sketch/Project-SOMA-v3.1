@@ -42,7 +42,12 @@ V4 放棄傳統微型舵機，轉向工業級流體致動方案。
 <img width="64" height="36" alt="image" src="https://github.com/user-attachments/assets/96e917af-da8c-437d-bb92-e3bd80f11325" />
 
 （上傳你的 V4 生成圖片，檔名 V4-prototype.jpg）
-
+## V4 更新（機械靈魂階段）
+- 完整技術規格書：TECHNICAL_SPECS_V4.md  
+- 最大鎖定力 3125 N（318.9 kg）  
+- 蜘蛛液壓耦合 + SUCCESS 積分系統  
+- 情感契約與影子對策  
+- 自由度 42 DoF，全模組化
 ## 免責聲明
 本專案僅供教育、研究與個人娛樂用途，非醫療/商業級產品。  
 所有技術為概念驗證，未經安全認證，使用者自行承擔風險。  
